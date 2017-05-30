@@ -58,7 +58,6 @@ class AirportListViewController: UITableViewController {
         cell.CityCode.text = airportList[indexPath.section][indexPath.row]["IATA"]
         cell.CityCode.textColor = UIColor.gray
         cell.CityName.textColor = UIColor.gray
-        cell.accessoryType = .disclosureIndicator
         return cell
     }
     
